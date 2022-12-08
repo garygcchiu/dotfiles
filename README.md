@@ -18,3 +18,8 @@ function gitu() {
 ```
 git config --global alias.st status
 ```
+
+**Alias `git unstage` for `git reset HEAD --` [file]**
+```
+git config --global alias.unstage 'reset HEAD --'
+```
