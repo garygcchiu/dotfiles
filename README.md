@@ -28,4 +28,5 @@ git config --global alias.unstage 'reset HEAD --'
 ## Misc Apps
 
 Contexts
+
 CleanShot X
