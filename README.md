@@ -7,6 +7,10 @@ https://fig.io
 brew install --cask fig
 ```
 
+Enable `Use PowerShell glyphs`: 
+![CleanShot 2022-12-24 at 22 25 45](https://user-images.githubusercontent.com/19521762/209456067-a42dd595-69dd-4c7b-b805-32680bbb3d61.png)
+
+
 ## Git
 
 **git add commit and push**
