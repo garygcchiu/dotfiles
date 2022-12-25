@@ -1,5 +1,11 @@
-# Dev-Env-Setup
+# Dev Eng of Peace
 
+## Terminal
+
+https://fig.io
+```
+brew install --cask fig
+```
 
 ## Git
 
