@@ -48,6 +48,11 @@ git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
 ```
 
+**Automatically setup remote tracking**:
+```
+git config --global push.autoSetupRemote true
+```
+
 
 ## Misc Apps
 
