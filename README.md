@@ -16,6 +16,12 @@ Set Key Bindings to Natural Text Editing:
 
 ### Zsh Config:
 
+Install Oh My Zsh:
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 Install [Spaceship-Prompt](https://spaceship-prompt.sh):
 
 ```
