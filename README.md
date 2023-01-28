@@ -22,6 +22,14 @@ Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh):
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+Enable the following plugins in `.zshrc`:
+
+```
+plugins=(
+    zsh-syntax-highlighting
+)
+```
+
 Install [Spaceship-Prompt](https://spaceship-prompt.sh):
 
 ```
