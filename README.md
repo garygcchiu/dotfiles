@@ -16,12 +16,13 @@ Set Key Bindings to Natural Text Editing:
 
 ### Zsh Config:
 
+Install [Spaceship-Prompt](https://spaceship-prompt.sh):
 
+```
+brew install spaceship
+echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
+```
 
-https://fig.io
-```
-brew install --cask fig
-```
 
 Plugins:
 
