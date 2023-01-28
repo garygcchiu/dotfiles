@@ -16,7 +16,7 @@ Set Key Bindings to Natural Text Editing:
 
 ### Zsh Config:
 
-Install Oh My Zsh:
+Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh):
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
