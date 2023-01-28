@@ -2,7 +2,7 @@
 
 ## Terminal
 
-iTerm 2
+### iTerm 2
 https://iterm2.com 
 
 Set Left Option key as Esc+:
@@ -13,6 +13,9 @@ Enable `Use built-in Powerline glyphs`:
 
 Set Key Bindings to Natural Text Editing:
 <img width="1005" alt="image" src="https://user-images.githubusercontent.com/19521762/213565597-7ad7dff8-979b-481e-a3ea-9d672c6091b9.png">
+
+### Zsh Config:
+
 
 
 https://fig.io
