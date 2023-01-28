@@ -27,6 +27,7 @@ Enable the following plugins in `.zshrc`:
 ```
 plugins=(
     zsh-syntax-highlighting
+    zsh-autosuggestions
 )
 ```
 
@@ -37,10 +38,7 @@ brew install spaceship
 echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
 ```
 
-
-Plugins:
-
-![CleanShot 2022-12-24 at 22 36 29](https://user-images.githubusercontent.com/19521762/209456205-770dc080-ea54-41e2-8348-ba6c917a4779.png)
+Copy `.spaceshiprc.zsh` to `~`.
 
 
 ## Git
