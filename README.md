@@ -27,7 +27,6 @@ Enable the following plugins in `.zshrc`:
 ```
 plugins=(
     zsh-syntax-highlighting
-    zsh-autosuggestions
 )
 ```
 
@@ -39,6 +38,12 @@ echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
 ```
 
 Copy `.spaceshiprc.zsh` to `~`.
+
+Install [Fig](https://fig.io) for their autocomplete:
+
+```
+brew install fig
+```
 
 ### IDE
 
@@ -56,6 +61,7 @@ chmod +x /usr/local/bin/goland;
 
 ![CleanShot 2023-01-28 at 15 52 16](https://user-images.githubusercontent.com/19521762/215290624-cd7e7dcf-d955-443d-810f-0351dedbe980.png)
 
+![CleanShot 2023-01-29 at 13 22 30](https://user-images.githubusercontent.com/19521762/215347655-fd021327-83ac-4a64-84a2-a7c68aaf04ed.png)
 
 ## Git
 
