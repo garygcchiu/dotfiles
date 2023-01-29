@@ -5,13 +5,14 @@ My personal local development setup that I use whenever I setup a new laptop. Co
 ### iTerm 2
 https://iterm2.com 
 
-Set Left Option key as Esc+:
+Set Left Option key as Esc+ to skip words with Option+Left or Option+Right or Option+Backspace. 
 ![image](https://user-images.githubusercontent.com/19521762/215343012-1e0af2a5-891e-42d1-8abf-0daba69e35f9.png)
 
-Enable `Use built-in Powerline glyphs`: 
+
+Enable `Use built-in Powerline glyphs` for prompt icons: 
 ![image](https://user-images.githubusercontent.com/19521762/215342979-46437437-565f-4aee-84c8-ae42f0d4a2cd.png)
 
-Set Key Bindings to Natural Text Editing:
+Set Key Bindings to Natural Text Editing for better text navigation:
 <img width="1005" alt="image" src="https://user-images.githubusercontent.com/19521762/213565597-7ad7dff8-979b-481e-a3ea-9d672c6091b9.png">
 
 ### Zsh:
@@ -30,7 +31,7 @@ plugins=(
 )
 ```
 
-Install [Spaceship-Prompt](https://spaceship-prompt.sh):
+Install [Spaceship-Prompt](https://spaceship-prompt.sh) for their prompt contexts (esp. useful for k8s contexts):
 
 ```
 brew install spaceship
@@ -107,4 +108,7 @@ git config --global push.autoSetupRemote true
 
 [CleanShot X](https://cleanshot.com)
 - Seems like 1 license per device though. Honestly might be worth, really sweet app.  
+
+[Cron](https://cron.com)
+- Mostly use to have my upcoming meetings right in the menu bar. 
 
