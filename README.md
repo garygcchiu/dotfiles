@@ -6,7 +6,7 @@
 https://iterm2.com 
 
 Set Left Option key as Esc+:
-![CleanShot 2022-12-24 at 22 38 11](https://user-images.githubusercontent.com/19521762/209456226-08979ba5-a59d-409b-bb11-02f6fb2daed3.png)
+![image](https://user-images.githubusercontent.com/19521762/215343012-1e0af2a5-891e-42d1-8abf-0daba69e35f9.png)
 
 Enable `Use built-in Powerline glyphs`: 
 ![image](https://user-images.githubusercontent.com/19521762/215342979-46437437-565f-4aee-84c8-ae42f0d4a2cd.png)
