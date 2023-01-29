@@ -45,6 +45,13 @@ Install [Fig](https://fig.io) for their autocomplete:
 brew install fig
 ```
 
+Set `[Tab]` to Navigate Down:
+
+![CleanShot 2023-01-29 at 13 24 40](https://user-images.githubusercontent.com/19521762/215347771-4ca39c2e-cdc2-44ee-b53b-8241b443eacf.png)
+
+Disable Telemetry, hide Menu Icon. 
+
+
 ### IDE
 
 Launch current directory in GoLand via the command line (i.e. `goland .`)
