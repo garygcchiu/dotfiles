@@ -1,5 +1,7 @@
 # Dev Env of Peace
 
+My personal local development setup that I use whenever I setup a new laptop.
+
 ## Terminal
 
 ### iTerm 2
