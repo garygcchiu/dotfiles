@@ -52,10 +52,10 @@ Launch current directory in GoLand via the command line (i.e. `goland .`)
 echo '
 #!/bin/sh
 open -na "GoLand.app" --args "$@"
-' >> /usr/local/bin/goland
-chmod +x /usr/local/bin/goland
+' >> /usr/local/bin/goland;
+chmod +x /usr/local/bin/goland;
 `
-
+```
 
 ## Git
 
