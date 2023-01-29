@@ -70,17 +70,17 @@ function gitu() {
 }
 ```
 
-**Alias `git st` for `git status`**:
+Alias `git st` for `git status`:
 ```
 git config --global alias.st status
 ```
 
-**Alias `git unstage` for `git reset HEAD --` [file]**
+Alias `git unstage` for `git reset HEAD --` [file]
 ```
 git config --global alias.unstage 'reset HEAD --'
 ```
 
-**Automatically setup remote tracking**:
+Automatically setup remote tracking:
 ```
 git config --global push.autoSetupRemote true
 ```
