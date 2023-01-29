@@ -44,6 +44,18 @@ What it should all look after:
 
 ![CleanShot 2023-01-28 at 15 52 16](https://user-images.githubusercontent.com/19521762/215290624-cd7e7dcf-d955-443d-810f-0351dedbe980.png)
 
+### IDE
+
+Launch current directory in GoLand via the command line (i.e. `goland .`)
+
+```
+echo '
+#!/bin/sh
+open -na "GoLand.app" --args "$@"
+' >> /usr/local/bin/goland
+chmod +x /usr/local/bin/goland
+`
+
 
 ## Git
 
