@@ -54,7 +54,6 @@ echo '
 open -na "GoLand.app" --args "$@"
 ' >> /usr/local/bin/goland;
 chmod +x /usr/local/bin/goland;
-`
 ```
 
 ## Git
