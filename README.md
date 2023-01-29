@@ -103,7 +103,8 @@ git config --global push.autoSetupRemote true
 
 ## Misc Apps
 
-CleanShot X
-
 [Contexts](https://contexts.co) 
-- Seems like 1 license per device though. Not really worth IMO. 
+
+[CleanShot X](https://cleanshot.com)
+- Seems like 1 license per device though. Honestly might be worth, really sweet app.  
+
