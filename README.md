@@ -1,5 +1,3 @@
-# Dev Env of Peace
-
 My personal local development setup that I use whenever I setup a new laptop. Contains my shell setup, tools, scripts, aliases, quality of life improvements, etc. 
 
 ## Terminal
