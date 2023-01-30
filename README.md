@@ -44,7 +44,8 @@ brew install spaceship
 echo "source $(brew --prefix)/opt/spaceship/spaceship.zsh" >>! ~/.zshrc
 ```
 
-Copy `.spaceshiprc.zsh` to `~`.
+Copy [.spaceshiprc.zsh](./.spaceshiprc.zsh) to `~`.
+
 
 Install [Fig](https://fig.io) for their autocomplete:
 
