@@ -31,7 +31,7 @@ plugins=(
 )
 ```
 
-(May need to install it first if not already present):
+(May need to install it first if not already present)(I prefer to install it via Oh My Zsh as opposed to Fig):
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
