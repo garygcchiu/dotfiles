@@ -1,4 +1,4 @@
-My personal local development setup that I use whenever I setup a new laptop. Contains my shell setup, tools, scripts, aliases, quality of life improvements, etc. 
+My personal local development setup. Contains my shell setup, tools, scripts, aliases, quality of life improvements, etc. 
 
 ## Terminal
 
