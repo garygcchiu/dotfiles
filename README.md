@@ -31,6 +31,12 @@ plugins=(
 )
 ```
 
+(May need to install it first if not already present):
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+
 Install [Spaceship-Prompt](https://spaceship-prompt.sh) for their prompt contexts (esp. useful for k8s contexts):
 
 ```
