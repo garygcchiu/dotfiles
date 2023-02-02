@@ -86,7 +86,7 @@ chmod +x /usr/local/bin/goland;
 
 Add to `.zshrc`:
 ```
-function gitu() {
+function gitu {
     git add .
     git commit -a -m "$1"
     git push
