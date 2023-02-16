@@ -59,6 +59,12 @@ Set `[Tab]` to Navigate Down:
 
 Disable Telemetry, hide Menu Icon. 
 
+Add [`kubectx` and `kubens`](https://github.com/ahmetb/kubectx) for quick k8s context and namespace switching:
+
+```
+brew install kubectx
+```
+
 
 **What it should all look after**:
 
