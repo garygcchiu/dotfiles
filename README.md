@@ -66,6 +66,14 @@ brew install kubectx
 ```
 
 
+Add the following to your `.zshrc`: 
+```
+alias k=kubectl
+function ksh {
+        kubectl exec -it "$1" -- sh
+}
+```
+
 **What it should all look after**:
 
 ![CleanShot 2023-01-29 at 13 28 24](https://user-images.githubusercontent.com/19521762/215347913-1acb8fc5-af84-4125-bcd5-a3dbf9a2261d.png)
@@ -113,7 +121,6 @@ Automatically setup remote tracking:
 ```
 git config --global push.autoSetupRemote true
 ```
-
 
 ## Misc Apps
 
