@@ -70,7 +70,13 @@ Add the following to your `.zshrc`:
 ```
 alias k=kubectl
 function ksh {
-        kubectl exec -it "$1" -- sh
+    kubectl exec -it "$1" -- sh
+}
+function get-pod-named {
+    kubectl get pod -o name | grep -m1 "$1" | cut -d '/' -f 2
+}
+function kgp {
+    kubectl get pod "$@"
 }
 ```
 
