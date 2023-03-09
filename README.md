@@ -122,6 +122,11 @@ Automatically setup remote tracking:
 git config --global push.autoSetupRemote true
 ```
 
+Set `vim` to be default editor:
+```
+git config --global core.editor "vim"
+```
+
 ## Misc Apps
 
 [Contexts](https://contexts.co) 
