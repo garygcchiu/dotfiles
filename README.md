@@ -99,6 +99,13 @@ open -na "GoLand.app" --args "$@"
 chmod +x /usr/local/bin/goland;
 ```
 
+or add to `~/.zshrc`:
+```
+function goland { 
+    open -na "GoLand.app" --args "$@"
+}
+```
+
 
 ## Git
 
