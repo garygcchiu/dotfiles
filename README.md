@@ -156,3 +156,5 @@ git config --global core.editor "vim"
 [Cron](https://cron.com)
 - Mostly use to have my upcoming meetings right in the menu bar. 
 
+[Graphite](https://graphite.dev/cli)
+- Git wrapper that helps with branch stacking
