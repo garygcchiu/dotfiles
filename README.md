@@ -69,6 +69,7 @@ brew install kubectx
 Add the following to your `.zshrc`: 
 ```
 alias k=kubectl
+alias ls='ls --color'
 function ksh {
     kubectl exec -it "$1" -- sh
 }
@@ -117,6 +118,11 @@ function gitu {
     git add .
     git commit -a -m "$1"
     git push
+}
+# graphite
+function gtu {
+        gt cc -a -m "$1"
+        gt ss
 }
 ```
 
