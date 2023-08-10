@@ -81,7 +81,7 @@ function kgp {
 }
 ```
 
-Install `bat`:
+Install [bat](https://github.com/sharkdp/bat):
 ```
 brew install bat
 ```
