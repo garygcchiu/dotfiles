@@ -146,6 +146,11 @@ Alias `git unstage` for `git reset HEAD --` [file]
 git config --global alias.unstage 'reset HEAD --'
 ```
 
+Alias `git co` for `git checkout`: 
+```
+git config --global alias.co checkout
+```
+
 Automatically setup remote tracking:
 ```
 git config --global push.autoSetupRemote true
