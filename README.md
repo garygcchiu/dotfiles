@@ -161,6 +161,11 @@ Set `vim` to be default editor:
 git config --global core.editor "vim"
 ```
 
+Use `master` as default branch when running `git init`:
+```
+git config --global init.defaultBranch master
+```
+
 ## Misc Apps
 
 [Contexts](https://contexts.co) 
