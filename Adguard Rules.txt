@@ -3,6 +3,7 @@ stackoverflow.com##div.js-consent-banner
 www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Mix - /))
 www.youtube.com##.ytd-compact-radio-renderer:has-text(Mix - )
 www.youtube.com##ytd-rich-item-renderer span.ytd-video-meta-block:has-text(/([5-9]|\d{2,}) years ago/):upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-rich-item-renderer span.ytd-video-meta-block:has-text(/\d{1,3} views/):upward(ytd-rich-item-renderer)
 www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^My Mix/))
 www.youtube.com##ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-rich-item-renderer)
 www.techinterviewhandbook.org##a.container_FbJq
