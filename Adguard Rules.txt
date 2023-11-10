@@ -12,7 +12,6 @@ www.google.com##div[class*="explore-main"]
 www.google.com##div[class*="exp-outline"]
 google.*##div[id^="eob"]
 google.*##.exp-outline
-erome.com###bubble
 @@||calendar.google.com^$important,document
 hueblog.com##div:nth-child(16)
 mail.google.com###gb > div.gb_Ld.gb_2d.gb_Rd:nth-child(2) > div.gb_Vd.gb_Xa.gb_Kd.gb_Zd:last-child > div:nth-child(2)
