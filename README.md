@@ -178,3 +178,6 @@ git config --global init.defaultBranch master
 
 [Graphite](https://graphite.dev/cli)
 - Git wrapper that helps with branch stacking
+
+[z](https://github.com/rupa/z?tab=readme-ov-file)
+- Jump around the terminal, regex to frequently used directories easily
