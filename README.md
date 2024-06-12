@@ -91,6 +91,15 @@ brew install bat
 alias cat='bat'
 ```
 
+Install [JetBrains-Mono Nerd-Font](https://webinstall.dev/nerdfont/):
+```
+brew install font-jetbrains-mono-nerd-font
+```
+
+Set it in iTerm2:
+<img width="689" alt="image" src="https://github.com/garygcchiu/dev-env-of-peace/assets/19521762/0d0ce2c9-4f96-47c8-80dc-94908366cfc5">
+
+
 **What it should all look after**:
 
 ![CleanShot 2023-01-29 at 13 28 24](https://user-images.githubusercontent.com/19521762/215347913-1acb8fc5-af84-4125-bcd5-a3dbf9a2261d.png)
