@@ -177,6 +177,10 @@ git config --global init.defaultBranch master
 
 ## Misc Apps
 
+[Warpd](https://github.com/rvaiya/warpd)
+- Install from source
+- Move `warpd.config` to `~/.config/warpd/config`
+
 [Contexts](https://contexts.co) 
 
 [CleanShot X](https://cleanshot.com)
