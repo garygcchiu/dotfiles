@@ -73,4 +73,29 @@
         "command": "workbench.action.navigateBack",
         "when": "canNavigateBack"
     },
+    // open explorer 
+    {
+        "key": "ctrl+shift+alt+meta+1",
+        "command": "workbench.view.explorer",
+    },
+    // open find 
+    {
+        "key": "ctrl+shift+alt+meta+2",
+        "command": "workbench.view.search",
+    },
+    // open source control 
+    {
+        "key": "ctrl+shift+alt+meta+3",
+        "command": "workbench.view.scm",
+    },
+    // open extensions 
+    {
+        "key": "ctrl+shift+alt+meta+4",
+        "command": "workbench.view.extensions",
+    },
+    // open extensions 
+    {
+        "key": "ctrl+shift+alt+meta+5",
+        "command": "sqltoolsViewConnectionExplorer.focus",
+    },
 ]
