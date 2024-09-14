@@ -1,0 +1,76 @@
+// Place your key bindings in this file to override the defaults.
+// Cursor: ~/Library/Application\ Support/Cursor/User/keybindings.json
+[
+    {
+        "key": "ctrl+shift+alt+cmd+g",
+        "command": "openInGitHub.openFile"
+    },
+    // error navigation
+    {
+        "key": "ctrl+shift+alt+meta+n",
+        "command": "editor.action.marker.prev",
+        "when": "editorFocus"
+    }, 
+    {
+        "key": "ctrl+shift+alt+meta+m",
+        "command": "editor.action.marker.next",
+        "when": "editorFocus"
+    },
+    // switch to terminal
+    {
+        "key": "alt+ctrl+shift+meta+h",
+        "command": "workbench.action.terminal.focus"
+    },
+    // switch to editors
+    {
+        "key": "alt+ctrl+shift+meta+i",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorFocus"
+    },
+     // focus right in terminals
+     {
+        "key": "alt+ctrl+shift+meta+;",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    // focus left in terminals
+    {
+        "key": "alt+ctrl+shift+meta+j",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    // resize terminal
+    {
+        "key": "ctrl+shift+alt+meta+y",
+        "command": "workbench.action.terminal.resizePaneLeft",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+u",
+        "command": "workbench.action.terminal.resizePaneRight",
+        "when": "terminalFocus"
+    },
+    // show and hide terminal window
+    {
+        "key": "ctrl+shift+alt+meta+l",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+meta+k",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminalFocus"
+    },
+    // navigate forward (like browser)
+    {
+        "key": "ctrl+shift+alt+meta+p",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
+    },
+    // navigate back (like browser)
+    {
+        "key": "ctrl+shift+alt+meta+o",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+]
