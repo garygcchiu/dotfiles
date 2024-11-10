@@ -1,11 +1,23 @@
 www2.hm.com###onetrust-banner-sdk
 stackoverflow.com##div.js-consent-banner
+
+# filter out Mix playlists
 www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Mix - /))
 www.youtube.com##.ytd-compact-radio-renderer:has-text(Mix - )
+
+# filter out videos older than 5 years
 www.youtube.com##ytd-rich-item-renderer span.ytd-video-meta-block:has-text(/([5-9]|\d{2,}) years ago/):upward(ytd-rich-item-renderer)
+
+# filter videos with less than 1,000 views
 www.youtube.com##ytd-rich-item-renderer span.ytd-video-meta-block:has-text(/\d{1,3} views/):upward(ytd-rich-item-renderer)
+
+# filter "My Mix" playlists
 www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^My Mix/))
+
+# filter watched videos
 www.youtube.com##ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-rich-item-renderer)
+www.youtube.com##yt-thumbnail-overlay-progress-bar-view-model:upward(ytd-rich-item-renderer)
+
 www.techinterviewhandbook.org##a.container_FbJq
 stackexchange.com##div.js-consent-banner
 www.google.com##div[class*="explore-main"]
