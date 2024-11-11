@@ -14,6 +14,7 @@ www.youtube.com##ytd-rich-item-renderer span.yt-core-attributed-string:has-text(
 
 # filter videos with less than 1,000 views
 www.youtube.com##ytd-rich-item-renderer span.ytd-video-meta-block:has-text(/\d{1,3} views/):upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-rich-item-renderer spanyt-core-attributed-string:has-text(/\d{1,3} views/):upward(ytd-rich-item-renderer)
 
 # filter "My Mix" playlists
 www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^My Mix/))
