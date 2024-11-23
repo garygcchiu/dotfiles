@@ -25,6 +25,9 @@ www.youtube.com##ytd-rich-item-renderer span.yt-core-attributed-string:has-text(
 www.youtube.com##ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-rich-item-renderer)
 www.youtube.com##yt-thumbnail-overlay-progress-bar-view-model:upward(ytd-rich-item-renderer)
 
+# filter movies
+www.youtube.com##ytd-rich-item-renderer p.ytd-badge-supported-renderer:has-text(Free with ads):upward(ytd-rich-item-renderer)
+
 www.techinterviewhandbook.org##a.container_FbJq
 stackexchange.com##div.js-consent-banner
 www.google.com##div[class*="explore-main"]
