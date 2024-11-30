@@ -3,6 +3,7 @@ stackoverflow.com##div.js-consent-banner
 
 # filter out Live videos
 www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Live/))
+www.youtube.com##ytd-rich-item-renderer p.ytd-badge-supported-renderer:has-text(LIVE):upward(ytd-rich-item-renderer)
 
 # filter out Mix playlists
 www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Mix - /))
