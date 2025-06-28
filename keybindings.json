@@ -2,6 +2,10 @@
 // Cursor: ~/Library/Application\ Support/Cursor/User/keybindings.json
 [
     {
+        "key": "cmd+i",
+        "command": "composerMode.agent"
+    },
+    {
         "key": "ctrl+shift+alt+cmd+g",
         "command": "openInGitHub.openFile"
     },
