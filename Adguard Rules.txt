@@ -32,8 +32,8 @@ www.youtube.com##ytd-rich-item-renderer span.yt-core-attributed-string:has-text(
 
 # filter watched videos
 www.youtube.com##ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-rich-item-renderer)
-www.youtube.com##yt-thumbnail-overlay-progress-bar-view-model:upward(ytd-rich-item-renderer)
 www.youtube.com##yt-thumbnail-overlay-progress-bar-view-model:upward(yt-lockup-view-model)
+www.youtube.com##yt-thumbnail-overlay-progress-bar-view-model:upward(ytd-rich-item-renderer:not([is-slim-grid=""]))
 
 # filter movies
 www.youtube.com##ytd-rich-item-renderer p.ytd-badge-supported-renderer:has-text(Free with ads):upward(ytd-rich-item-renderer)
