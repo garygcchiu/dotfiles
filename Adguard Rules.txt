@@ -41,6 +41,7 @@ www.youtube.com##ytd-rich-item-renderer p.ytd-badge-supported-renderer:has-text(
 # filter YouTube Shorts
 www.youtube.com##ytd-guide-entry-renderer yt-formatted-string:has-text(/Shorts/):upward(ytd-guide-entry-renderer)
 www.youtube.com##ytd-rich-section-renderer span.ytd-rich-shelf-renderer:has-text(/Shorts/):upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-mini-guide-entry-renderer span.ytd-mini-guide-entry-renderer:has-text(/Shorts/):upward(ytd-mini-guide-entry-renderer)
 
 www.techinterviewhandbook.org##a.container_FbJq
 stackexchange.com##div.js-consent-banner
