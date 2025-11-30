@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "confirm_quit": true,
   "agent": {
     "default_profile": "write",
     "default_model": {
@@ -42,22 +43,8 @@
       "enabled": false
     }
   },
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "title_bar": {
     "show_branch_icon": true
   }
-  // "language_models": {
-  //   "lmstudio": {
-  //     "api_url": "http://localhost:1234/v1",
-  //     "available_models": [
-  //       {
-  //         "name": "openai/gpt-oss-20b",
-  //         "display_name": "openai/gpt-oss-20b",
-  //         "max_tokens": 16000,
-  //         "supports_tool_calls": true,
-  //         "supports_images": true
-  //       }
-  //     ]
-  //   }
-  // }
 }
