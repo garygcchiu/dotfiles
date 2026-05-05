@@ -1,47 +1,36 @@
 www2.hm.com###onetrust-banner-sdk
 stackoverflow.com##div.js-consent-banner
 
-# filter out Live videos
-www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Live/))
-www.youtube.com##yt-lockup-view-model:has(yt-formatted-string:has-text(/^Live/))
-www.youtube.com##ytd-rich-item-renderer p.ytd-badge-supported-renderer:has-text(LIVE):upward(ytd-rich-item-renderer)
+! =========================
+! YouTube HOME FEED ONLY
+! =========================
 
-# filter out Mix playlists
-www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^Mix - /))
-www.youtube.com##.ytd-compact-radio-renderer:has-text(Mix - )
-www.youtube.com##ytd-rich-item-renderer span.yt-core-attributed-string:has-text(Mix - ):upward(ytd-rich-item-renderer)
+! Filter Mixes / My Mix
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(yt-collections-stack:has-text(/[\w\W]{1}/))
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(:is(yt-formatted-string,span.yt-core-attributed-string):has-text(/^(Mix -|My Mix\b)/))
+www.youtube.com##[page-subtype="home"] ytd-compact-radio-renderer:has-text(/Mix - /)
 
-# filter out videos older than 5 years
-www.youtube.com##ytd-rich-item-renderer span.ytd-video-meta-block:has-text(/([5-9]|\d{2,}) years ago/):upward(ytd-rich-item-renderer)
-www.youtube.com##ytd-rich-item-renderer span.yt-core-attributed-string:has-text(/([5-9]|\d{2,}) years ago/):upward(ytd-rich-item-renderer)
-www.youtube.com##yt-lockup-view-model span.yt-core-attributed-string:has-text(/([5-9]|\d{2,}) years ago/):upward(ytd-rich-item-renderer)
+! Filter “Free with ads” / “View full podcast”
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(:is(p,a,span,yt-formatted-string):has-text(/Free with ads|View full podcast/))
 
-# filter videos with less than 1,000 views
-www.youtube.com##ytd-rich-item-renderer span.ytd-video-meta-block:has-text(/\d{1,3} views/):upward(ytd-rich-item-renderer)
-www.youtube.com##ytd-rich-item-renderer spanyt-core-attributed-string:has-text(/\d{1,3} views/):upward(ytd-rich-item-renderer)
-www.youtube.com##ytd-compact-video-renderer:has-text(/\d{1,3} views/)
-www.youtube.com##ytd-compact-video-renderer span.inline-metadata-item:has-text(/\d{1,3} views/):upward(ytd-compact-video-renderer)
-www.youtube.com##ytd-compact-video-renderer spanyt-core-attributed-string:has-text(/\d{1,3} views/):upward(ytd-compact-video-renderer)
-# www.youtube.com##ytd-compact-video-renderer span.inline-metadata-item:has-text(/\d{1,3} views/):upward(ytd-compact-video-renderer)
-www.youtube.com##yt-lockup-view-model:has-text(/\d{1,3} views/)
-www.youtube.com##yt-lockup-view-model:has-text(/1 view/)
+! Filter out videos older than 5 years
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(:is(.inline-metadata-item.ytd-video-meta-block,yt-lockup-view-model yt-content-metadata-view-model span):has-text(/\b([5-9]|\d{2,}) years ago\b/))
 
-# filter "My Mix" playlists
-www.youtube.com##ytd-rich-item-renderer:has(yt-formatted-string:has-text(/^My Mix/))
-www.youtube.com##ytd-rich-item-renderer span.yt-core-attributed-string:has-text(/^My Mix/):upward(ytd-rich-item-renderer)
+! Filter out videos with <1,000 views
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(:is(.inline-metadata-item.ytd-video-meta-block,yt-lockup-view-model yt-content-metadata-view-model span):has-text(/^\d{1,3} views?$/))
 
-# filter watched videos
-www.youtube.com##ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-rich-item-renderer)
-www.youtube.com##yt-thumbnail-overlay-progress-bar-view-model:upward(yt-lockup-view-model)
-www.youtube.com##yt-thumbnail-overlay-progress-bar-view-model:upward(ytd-rich-item-renderer:not([is-slim-grid=""]))
+! Filter out watched videos
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(:is(#progress, .ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment))
 
-# filter movies
-www.youtube.com##ytd-rich-item-renderer p.ytd-badge-supported-renderer:has-text(Free with ads):upward(ytd-rich-item-renderer)
+! Remove LIVE videos
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(.badge[aria-label="LIVE"])
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(.badge-shape-wiz--thumbnail-live)
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(.badge-style-type-live-now-alternate)
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has([overlay-style="LIVE"])
+www.youtube.com##[page-subtype="home"] ytd-rich-item-renderer:has(yt-thumbnail-badge-view-model badge-shape:has-text(/^LIVE$/))
 
-# filter YouTube Shorts
-www.youtube.com##ytd-guide-entry-renderer yt-formatted-string:has-text(/Shorts/):upward(ytd-guide-entry-renderer)
-www.youtube.com##ytd-rich-section-renderer span.ytd-rich-shelf-renderer:has-text(/Shorts/):upward(ytd-rich-section-renderer)
-www.youtube.com##ytd-mini-guide-entry-renderer span.ytd-mini-guide-entry-renderer:has-text(/Shorts/):upward(ytd-mini-guide-entry-renderer)
+! Remove Shorts shelves / sections on Home
+www.youtube.com##[page-subtype="home"] ytd-rich-section-renderer:has(#dismissible)
 
 www.techinterviewhandbook.org##a.container_FbJq
 stackexchange.com##div.js-consent-banner
